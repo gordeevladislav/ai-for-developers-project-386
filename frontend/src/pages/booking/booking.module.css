@@ -1,0 +1,21 @@
+.scheduleGrid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--mantine-spacing-xl);
+  align-items: start;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.timesList {
+  height: 360px;
+  overflow-y: auto;
+  padding-right: var(--mantine-spacing-xs);
+}
+
+.timeButton {
+  height: 44px;
+  flex-shrink: 0;
+}

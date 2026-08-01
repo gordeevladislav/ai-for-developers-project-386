@@ -1,0 +1,7 @@
+.name {
+  font-family: Outfit, var(--mantine-font-family);
+}
+
+.icon {
+  color: light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-3));
+}
